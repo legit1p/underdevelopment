@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valencia Parfum - Sous Construction</title>
+    <!-- Include Font Awesome for the time icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -42,10 +44,17 @@
         .stay-tuned {
             font-size: 24px;
             font-weight: 700;
-            color: #e07b60;
+            color: #2c3e50; /* Dark charcoal color */
             letter-spacing: 2px;
             margin-top: 30px;
             animation: fadeIn 2s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .stay-tuned i {
+            margin-right: 10px; /* Adds space between the icon and text */
+            font-size: 30px;
         }
         @keyframes fadeIn {
             0% { opacity: 0; }
@@ -60,7 +69,9 @@
     <img src="https://i.postimg.cc/4NSxMHvd/1.png" alt="Valencia Parfum Logo" class="logo">
     <h1>Valencia Parfum</h1>
     <p>Notre site est en construction.</p>
-    <p class="stay-tuned">Stay tuned, we’ll be live soon!</p>
+    <p class="stay-tuned">
+        <i class="fas fa-clock"></i> Stay tuned, we’ll be live soon!
+    </p>
 </div>
 </body>
 </html>
