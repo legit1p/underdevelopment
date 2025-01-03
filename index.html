@@ -35,27 +35,33 @@
             margin-bottom: 30px;
         }
         .icon {
-            font-size: 50px;
+            font-size: 70px;
             color: #e07b60;
-            animation: bounce 1.5s infinite;
+            animation: rotate 2s linear infinite;
         }
         @keyframes fadeIn {
             0% { opacity: 0; }
             100% { opacity: 1; }
         }
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <!-- Your logo -->
+    <img src="https://postimg.cc/mt741D5f" alt="Valencia Parfum Logo" class="logo">
     <h1>Valencia Parfum</h1>
     <p>Our website is under construction.</p>
     <p>Stay tuned, we’ll be live soon!</p>
-    <div class="icon">✨</div>
+    <div class="icon">🧴</div>
 </div>
 </body>
 </html>
